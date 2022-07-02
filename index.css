@@ -1,0 +1,45 @@
+h1 {
+  text-align: center;
+}
+.image {
+  position: center;
+  right: 500px;
+}
+h2 {
+  text-align: center;
+}
+
+#cat {
+  position: relative;
+  margin-left: 550px;
+  margin-top: 50px;
+}
+p {
+  text-align: center;
+  margin-top: 90px;
+}
+
+#dog {
+  position: relative;
+  margin-left: 500px;
+}
+#cat2 {
+  margin: 1px 100px 10px 650px;
+}
+
+#dog2 {
+  margin: 30px 100px 100px 590px;
+}
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.wrapper {
+  display: grid;
+  grid-template-columns: 200px 200px 200px 200px;
+  grid-template-rows: 200px 200px 200px 200px;
+  border: 2px solid blackf;
+}
